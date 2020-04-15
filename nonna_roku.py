@@ -1,9 +1,9 @@
 from __future__ import print_function
-import keyboard
-import subprocess
+import datetime
 import random
+import subprocess
 import time
-import string
+import keyboard
 
 roku_ip_address = "192.168.86.36"
 roku_curl_command_template = "curl -d '' [roku_ip_address]:8060/[command]"
