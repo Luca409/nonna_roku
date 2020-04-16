@@ -57,7 +57,7 @@ def playNews():
     executeBashcommand(pressHome)
     time.sleep(2)
     executeBashcommand(launchNewsApp)
-    time.sleep(2)
+    time.sleep(60)
     executeBashcommand(pressSelect)
     time.sleep(2)
     executeBashcommand(pressSelect)
