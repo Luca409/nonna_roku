@@ -5,7 +5,7 @@ import subprocess
 import time
 import keyboard
 
-roku_ip_address = "10.0.0.121"
+roku_ip_address = "10.0.0.65"
 roku_curl_command_template = "curl -d '' [roku_ip_address]:8060/[command]"
 
 def constructBashCommandString(command):
